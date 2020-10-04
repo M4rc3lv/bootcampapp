@@ -1,0 +1,19 @@
+ <svg viewport-fill="fb-black">   
+  <use id="BtnWissel" href="#combo-button-upper-right" fill="#007700"></use>
+  <use id="BtnQuit" href="#combo-button-lower-right" fill="#990000">   
+  </use>
+  <text fill="#999999" text-anchor="start"
+   text-length="15" id="TxtUnit" letter-spacing="12"
+    x="4" y="40" font-size="40"
+    font-family="Fabrikat-Bold">
+    BPM
+   </text>
+  <text fill="#999999" text-anchor="middle"
+   text-length="5" id="TxtInfo" letter-spacing="18"
+    x="50%" y="170" font-size="140"
+    font-family="Fabrikat-Bold">
+    ....
+   </text>
+   <rect x="0"  y="205" width="2%" height="10" id="BarAccu" fill="#008888" />
+   <rect x="0"  y="225" width="50%" height="20" id="BarTijd" fill="#009900" />
+</svg>

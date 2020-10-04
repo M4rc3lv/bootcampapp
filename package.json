@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "84009b1e-f253-45d5-a35c-25fac8d39a4b",
+    "appType": "app",
+    "appDisplayName": "Bootcamp",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_location",
+      "access_exercise",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Bootcamp"
+      },
+      "nl-NL": {
+        "name": "Bootcamp"
+      }
+    },
+    "defaultLanguage": "nl-NL"
+  }
+}
